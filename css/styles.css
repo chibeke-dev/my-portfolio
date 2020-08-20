@@ -12,6 +12,11 @@ a {
     color: #333;
     text-decoration: none;
 }
+@media (min-width: 500px) {
+
+    }
+
+/* General styles*/
 h1,
 h2,
 h3 {
@@ -25,7 +30,7 @@ h5 {
 }
 p {
     margin: 10px 0;
-    color: #fff;
+    color: #ff00ff;
     font-size: 50px;
     line-height: 1.2em;
 }
@@ -36,7 +41,7 @@ p {
     padding: 0 20px;
 }
 .text-primary {
-    color: #ff00ff;
+    color: #000000;
 }
 .lead {
     color: #fff;
@@ -48,7 +53,7 @@ p {
     color: #333
 }
 .bg-primary {
-    background: #ff00ff;
+    background: #000000;
     color: #333;
 }
 .l-heading {
@@ -149,18 +154,51 @@ span.text-primary {
 #skills {
     text-align: center;
 }
+/* contact */
 #contact-form .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
-div.subscribe-form input {
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px #444 solid;
+}
+#contact-form textarea {
+    height: 200px;
+}
+#contact-form input,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: bisque;
+}
+    div.subscribe-form input {
     width: 30%;
     height: 45px;
     padding: 10px;
     border: 1px #ddd solid;
 }
+ /* footer */
 #main-footer {
     text-align: center;
     background: #444;
-    color: #fff;
+    color: #ffff;
     padding: 20px;
+
+}
+/* icons */
+.icons{
+    margin-top: 1rem;
+
+    a {
+        padding: 0.4rem;
+        .icon:hover {
+            color: #060;
+   }  
+    
 }
