@@ -1,0 +1,75 @@
+/*nav-bar*/
+#navbar {
+    background: rgba(0, 0, 0, 0.925);
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #444;
+    color: green;
+}
+/* My project*/
+@media(min-width: 765px){
+
+    .container-1 {
+        display: flex;
+       /* align-items: flex-start;*/
+       justify-content: space-around;
+        
+    }
+    .container-2{
+        display: flex;
+       justify-content: space-around
+        
+    }
+    }
+   .container-1 div, .container-2 div {
+       border: 1px black solid;
+       padding: 10px; 
+       
+        }
+        .box-1{
+            flex: 1;
+            background-color: steelblue;
+            
+        }
+        .box-2{
+            flex: 1;
+            background-color: steelblue;
+            
+        }
+        .box-3{
+            flex: 1;
+            background-color: steelblue;
+            
+            }
+            .container-2-box{
+                flex-basis: 30%;
+                background-color: steelblue;
+    
+            }
+        /* mouse over link */
+        a:hover {
+            color: red;
+        }
+    
