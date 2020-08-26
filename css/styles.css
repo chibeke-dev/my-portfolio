@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    
+    
 }
 html,
 body {
@@ -20,13 +22,18 @@ a {
 h1,
 h2,
 h3 {
+    color: aquamarine;
     padding-bottom: 20px;
+    text-align: center;
+    background: #ccc;
+    font-size: 2em;
 }
 h3 {
     text-align: center;
 }
 h5 {
-    color: grey;
+    color: black;
+    text-align: center;
 }
 p {
     margin: 10px 0;
@@ -181,7 +188,34 @@ span.text-primary {
     height: 45px;
     padding: 10px;
     border: 1px #ddd solid;
+
 }
+#hero{
+    background: #ccc;
+}
+ul li{
+    list-style: none;
+}
+
+/* style on landing section*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    background: #ccc;
+}
+.box {
+    border: #fff;
+    padding: 30px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-size: 2em;
+    background: #fff;
+}
+.box-3{
+    width: 700px;
+}
+    
  /* footer */
 #main-footer {
     text-align: center;
@@ -193,10 +227,19 @@ span.text-primary {
 /* icons */
 .icons{
     margin-top: 1rem;
-
-    a {
-        padding: 0.4rem;
-        .icon:hover {
-            color: #060;
-   }  
 }
+
+a {
+    padding: 0.4rem;
+          
+}
+.icon:hover {
+    color: #060;
+} 
+/* style on landing section*/
+.flex-container div {
+    border: 1px black solid;
+    padding: 10px;
+    width: 200px;
+}
+    
