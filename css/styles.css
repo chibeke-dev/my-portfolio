@@ -235,11 +235,5 @@ a {
 }
 .icon:hover {
     color: #060;
-} 
-/* style on landing section*/
-.flex-container div {
-    border: 1px black solid;
-    padding: 10px;
-    width: 200px;
 }
     
