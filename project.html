@@ -9,64 +9,91 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
     <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>My Work</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <title>Chidinma Nwabekee</title>
 </head>
 <body>
     <!--project toolbar-->
-    <header>
+    <!--<header>
+
         <nav id="navbar">
             <div class="container">
-                <h1 class="logo"><img src="./img/Logo1.png"></a></h1>
+                <h1 class="logo"><a href="index.html">C-Tech</a></h1>
                 <ul>
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a  href="about.html">About</a></li>
-                    <li><a  href="contact.html">Contact</a></li>
-                    <li><a href="project.html">Project</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="current" href="project.html">Project</a></li>
                 </ul>
             </div>
         </nav>
+    </header>-->
+    <header>
+        <!-- Navbar  -->
+        <nav class="navbar">
+            <!-- hamburger -->
+            <div class="nav-align container">
+                <a href="index.html" class="logo">C-Tech</a>
+                <!-- navbar content -->
+                <div class="nav-content">
+                    <!-- nav-list  -->
+                    <button class="hamburger hamburger--collapse" aria-label="Toggle navigation" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"> </span>
+                        </span>
+                    </button>
+                    <div class="navbar-collapse">
+                        <ul class="nav-list">
+                            <!-- nav items -->
+                            <li class="nav-item"><a class="current" href="index.html">Home</a></li>
+                            <li class="nav-item"><a href="about.html">About</a></li>
+                            <li class="nav-item"><a href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a href="project.html">Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!--project body-->
-    <h1>My Project</h1>
-    <div class="container-1">
-        <div class="box-1">
-            <h1>Project one</h1>
-            <p>A project on a landing page</p>
-        <a href="#">View more</a>
-        </div>
-        <div class="box-2">
-            <h1>Project two</h1>
-            <p>Sign up form</p>
-            <a href="#">View more</a>
-        </div>
-        <div class="box-3">
-            <h1>Project three</h1>
-            <p>An e-commerce shopping cart</p>
-            <a href="#">View more</a>
-        </div>
-    </div>
 
-     <div class="container-2">
-        <div class="container-2-box">
-            <h1>Project four</h1>
-            <p>A blog website</p>
-            <a href="#">View more</a>
+
+    <!--project body-->
+      <!--<h2>Projects</h2>
+        <div class="project-section">
+            <div class="project-1"></div>
+            <div class="project-2"></div>
+            <div class="project-3"></div>
+            <div class="project-4"></div>
+            <div class="project-5"></div>
+            <div class="project-6"></div>
+        </div>-->
+<section  class="Project-section">
+   <h1>My Project</h1>
+    <div class="containers">
+        <div class="project-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo sed beatae labore ducimus incidunt harum suscipit eligendi cupiditate blanditiis!
+        <button><a href="#">
+            View more</a></button>
         </div>
-        <div class="container-2-box">
-            <h1>Project five</h1>
-            <p>A chat app with Vue</p>
-            <a href="#">View more</a>
+        <div class="project-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nobis.
+           <button><a href="#">View more</a></button>
         </div>
-        <div class="container-2-box">
-            <h1>Project six</h1>
-            <p>Quiz game</p>
-            <a href="#">View more</a>
+        <div class="project-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, perspiciatis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, error!
+           <button><a href="#">View more</a></button>
         </div>
     </div>
+    </section>
 <!--footer-->
-<footer>
-   <p>Chibekee &copy; 2020, All right Reserved</p>
+<footer id="main-footer">
+    <form action="POST" data-netlify="true">
+        <div class="subscribe-form">
+            <h3>Subscribe to Newsletter</h3>
+            <input type="email" name="email" id="email" placeholder="Email"  required>
+            <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+        </div>
+    </form>
+        Chibekee &copy; 2020, All right reserved
 </footer>
+<script src="./js/index.js"></script>
 </body>
 </html>

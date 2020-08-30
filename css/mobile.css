@@ -1,0 +1,71 @@
+.navbar button {
+    display: inline-block;
+}
+.nav-align {
+    align-items: baseline;
+}
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.navbar-collapse {
+    height: 0px;
+    overflow: hidden;
+    transition: height ease-in 300ms;
+}
+.navbar ul {
+    display: block;
+}
+.navbar-collapse.show {
+    max-height: 350px;
+    transition: max-height ease-out 500ms;
+}
+.navbar .nav-link {
+    font-size: 20px;
+}
+.container {
+    max-width: 740px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#showcase {
+    height: 100%;
+    color: rgb(42, 42, 141)
+}
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+#about-info .info-right {
+    margin-top: 30px;
+}
+.social-list,
+.social-list a {
+    float: none;
+}
+.containers{
+   grid-gap: 5px;
+   min-height: auto; 
+}
+#main-footer {
+    height: 100%;
+}
