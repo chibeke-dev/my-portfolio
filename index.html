@@ -1,138 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
-    <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata"
+    />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+    <link rel="stylesheet" href="./css/loader.css" />
+
     <!--<link rel="stylesheet" href="css/loader.css">-->
     <title>Chidinma Nwabekee</title>
-</head>
-<body>
-    <!--<div class="ring">
-    Loading
-    <span></span>
-    </div>-->
+  </head>
+  <body>
+    <div class="loader-holder">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+      <div class="bounce4"></div>
+    </div>
     <header>
-        <!-- Navbar  -->
-        <nav class="navbar">
-            <!-- hamburger -->
-            <div class="nav-align container">
-                <a href="index.html" class="logo">C-Tech</a>
-                <!-- navbar content -->
-                <div class="nav-content">
-                    <!-- nav-list  -->
-                    <button class="hamburger hamburger--collapse" aria-label="Toggle navigation" type="button">
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"> </span>
-                        </span>
-                    </button>
-                    <div class="navbar-collapse">
-                        <ul class="nav-list">
-                            <!-- nav items -->
-                            <li class="nav-item"><a class="current" href="index.html">Home</a></li>
-                            <li class="nav-item"><a href="about.html">About</a></li>
-                            <li class="nav-item"><a href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a href="project.html">Project</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <!-- hamburger -->
+        <div class="nav-align container">
+          <!-- <a href="index.html" class="logo">C-Tech</a> -->
+          <label class="logo"
+            ><a href="./index.html"
+              ><span class="logo-text">C-</span
+              ><span class="text-primary">Tech</span></a
+            ></label
+          >
+          <!-- navbar content -->
+          <div class="nav-content">
+            <!-- nav-list  -->
+            <button
+              class="hamburger hamburger--collapse"
+              aria-label="Toggle navigation"
+              type="button"
+            >
+              <span class="hamburger-box">
+                <span class="hamburger-inner"> </span>
+              </span>
+            </button>
+            <div class="navbar-collapse">
+              <ul class="nav-list">
+                <!-- nav items -->
+                <li class="nav-item">
+                  <a class="current" href="index.html">Home</a>
+                </li>
+                <li class="nav-item"><a href="about.html">About Me</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <li class="nav-item"><a href="project.html">Project</a></li>
+              </ul>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <div id="showcase">
-        <p>Hi, I'm Chidinma Nwabekee</p>
-        <p>A front-end developer and a problem solver</p>
+      <p>Hi, I'm Chidinma Nwabekee</p>
+      <h5>Web Developer. Web Designer.</h5>
     </div>
     <!--What i do-->
-    <section id="what" class="bg-light py-1">
-        <h1>What i do</h1>
-        <div class="flex-container-1">
-        <div class="box box-1">Data Processing sorting, verifying, updating database using SQL</div>
-        <div class="box box-1">Web Development: front-end web developer, web designer</div>
-    </div>
+    <section id="what">
+      <h1>What i do</h1>
+      <div class="grid-container">
+        <div class="box box-1">
+          <strong>Web Development</strong><br />
+          I use HTML, CSS, and JavaScript to produce responsive websites and
+          web apps that provide users the best and most appropriate experience
+          suited to their device and browser.
+        </div>
+        <div class="box box-2">
+          <strong> Web Design</strong><br />
+          I believe it is important to understand both design and development
+          to achieve a successful user-facing product. By involving a
+          front-end developer at the design & prototyping phase, technical
+          challenges can be solved early, producing a more cohesive product in
+          the most time efficient manner.
+        </div> <div class="box box-3">
+          <strong>Data Processing</strong><br />
+          Data processing is, generally, "the collection and manipulation of
+          items of data to produce meaningful information." In this sense it
+          can be considered a subset of information processing, "the change of
+          information in any manner detectable by an observer. Sorting,
+          verifying, updating database using SQL.
+        </div>
+        </div>
     </section>
     <!--Skills-->
-    <div class="skill-stats">
-    <div id="skills" class="py-3">
-        <div class="flex-container-2">
-            <div class="box2 box-2">
-                <h1>Skills</h1>
+  
+      <div id="skills" class="py-3">
+        <div class="card">
+          <div class="skill card-1">
+            <h1>Skills</h1>
             <ul>
-            <li>Version Control(Github)</li>
-                <li>Python</li>
-                <li>HTML5/CSS3</li>
-                <li>MySQL</li>
-                <li>JavaScript</li>
+              <li>Version Control(Github)</li>
+              <li>Python</li>
+              <li>HTML5/CSS3</li>
+              <li>MySQL</li>
+              <li>JavaScript</li>
             </ul>
-        </div>
-        <div>
-            <div class="box2 box-2">
-                <h1 class="stats">Stats</h1>
-                <ul>
-            <li>Best SecGen Award(2016)</li>
+          </div>
+          <div>
+            <div class="skill card-2">
+              <h1 class="stats">Stats</h1>
+              <ul>
                 <li>HTML Certificate</li>
                 <li>CSS Certificate</li>
                 <li>TiideLab Cohort2 Fellow</li>
-            </ul>
+                <li>Two Projects</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
+      </div>
+    </div>
+    <br />
+    <!--Testimonial-->
+    
+<div class="row">
+  <div class="column">
+    <div class="card2">
+      <img src="./img/Akan.jpg" class="picture"><br>
+      <div class="card-text">
+      <h3>Akan Asanga</h3>
+      <p class="testimonial-text">Chidinma Nwabekee is a team player and a fantastic developer that i have ever worked with. She is committed and delivers on time. She's the simply the best and she never give up. AkanWealth Asanga - Back-end Developer</p>
     </div>
     </div>
-    <br>
-    <!--Testimonies-->
-    <div class="testimony">
-    <h1>Testimonial</h1>
-    <div class="flex-container-3">
-        <div class="box3 box-3">
-            <ul>
-                <li>Name: John Doe</li>
-                <li>Company: Name of Company</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, esse.</li>
-            </ul>
-        </div>
-          <div class="box3 box-3">
-            <ul>
-                <li>Name: John Doe</li>
-                <li>Company: Name of Company</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, esse.</li>
-            </ul>
-        </div>
+  </div>
+
+  <div class="column">
+    <div class="card2">
+      <img src="./img/Onyedika.jpg" class="picture"/><br>
+      <div class="card-text">
+      <h3>Onyedikachi Ibeabuchi</h3>
+      <p class="testimonial-text">I have worked with Chidinma on two complex projects and in both cases, the work was done on time, on budget, and with a high degree of professionalism.</p>
     </div>
-    <!--The moment section-->
-    <section class="moments" id="moments">
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card2">
+      <img src="./img/Sophia.jpg" class="picture"/><br>
+      <div class="card-text">
+      <h3>Sophia Daniels</h3>
+      <p class="testimonial-text">Always available to help, incredibly proficient, hits deadlines without fail, hard working and trustworthy. In my experience, no project is too much trouble, and with Chidinma you really get a rare entity. I can recommend her services without hesitation.</p>
+    </div>
+    </div>
+  </div>
+</div>
+      <!--The moment section-->
+      <section class="moments" id="moments">
         <h2 class="moment">Moments</h2>
         <div class="picture-grid">
-            <div class="picture-1"></div>
-            <div class="picture-2"></div>
-            <div class="picture-3"></div>
-            <div class="picture-4"></div>
-            <div class="picture-5"></div>
-            <div class="picture-6"></div>
+          <div class="picture-1"></div>
+          <div class="picture-2"></div>
+          <div class="picture-3"></div>
+          <div class="picture-4"></div>
+          <div class="picture-5"></div>
+          <div class="picture-6"></div>
         </div>
         <p>TiideLab Fellowship Cohort2 Moments</p>
-    </section>
+      </section>
     </div>
     <!--Footer-->
     <footer id="main-footer">
-        <form action="POST" data-netlify="true">
-            <div class="subscribe-form">
-                <h3>Subscribe to Newsletter</h3>
-                <input type="email" name="email" id="email" placeholder="Email"  required>
-                <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
-            </div>
-        </form>
-            Chibekee &copy; 2020, All right reserved
-        
+      <form action="POST" data-netlify="true">
+        <div class="subscribe-form">
+          <h3>Subscribe to Newsletter</h3>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+        </div>
+      </form>
+      Chibekee &copy; 2020, All right reserved
     </footer>
     <script src="./js/index.js"></script>
-</body>
-</html> 
+  </body>
+</html>

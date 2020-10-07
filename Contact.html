@@ -1,107 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
-    <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata"
+    />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
     <title>Chidinma Nwabekee</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--Contact Toolbar-->
     <header>
-        <!-- Navbar  -->
-        <nav class="navbar">
-            <!-- hamburger -->
-            <div class="nav-align container">
-                <a href="index.html" class="logo">C-Tech</a>
-                <!-- navbar content -->
-                <div class="nav-content">
-                    <!-- nav-list  -->
-                    <button class="hamburger hamburger--collapse" aria-label="Toggle navigation" type="button">
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"> </span>
-                        </span>
-                    </button>
-                    <div class="navbar-collapse">
-                        <ul class="nav-list">
-                            <!-- nav items -->
-                            <li class="nav-item"><a class="current" href="index.html">Home</a></li>
-                            <li class="nav-item"><a href="about.html">About</a></li>
-                            <li class="nav-item"><a href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a href="project.html">Project</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <!-- hamburger -->
+        <div class="nav-align container">
+          <label class="logo"
+            ><a href="./index.html"
+              ><span class="logo-text">C-</span
+              ><span class="text-primary">Tech</span></a
+            ></label
+          >
+          <!-- navbar content -->
+          <div class="nav-content">
+            <!-- nav-list  -->
+            <button
+              class="hamburger hamburger--collapse"
+              aria-label="Toggle navigation"
+              type="button"
+            >
+              <span class="hamburger-box">
+                <span class="hamburger-inner"> </span>
+              </span>
+            </button>
+            <div class="navbar-collapse">
+              <ul class="nav-list">
+                <!-- nav items -->
+                <li class="nav-item">
+                  <a class="current" href="index.html">Home</a>
+                </li>
+                <li class="nav-item"><a href="about.html">About Me</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <li class="nav-item"><a href="project.html">Project</a></li>
+              </ul>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--Contact Body-->
     <section id="contact-form" class="py-3">
-        <div class="container">
-            <h1 class="contact-me">Contact Me
-            </h1>
-            <p class="my-contact">Thanks for your interest in contacting me. Please fill the form below.</p>
-            <form action="POST" data-netlify="true">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="name" id="name" placeholder="Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                </div>
-                <div class= "form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="btn">Submit</button>
-            </form>
-        </div>
+      <div class="container">
+           <section class="contact-info">
+        <h1 class="contact-me">Contact Me</h1>
+        <p class="my-contact">Have a project? And would want me on your team..</p>
+        <p class="my-contact">Send an email to chibekee17@gmail.com OR Call on 09080930068</p>
+        <p class="my-contact">
+          Thanks for your interest in contacting me. Please fill the form below.
+        </p>
+        </section>
+        <form action="POST" data-netlify="true">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
     </section>
-    <p class="reach-me">Have a project? And would want me on your team..</p>
-    Send an email to chibekee17@gmail.com OR
-    Call on 09080930068
+   
 
     <!--Contact Footer-->
-    <footer id="main-footer">
-        <div class="icons">
+     <footer id="main-footer">
+        <div class="icon">
         <a href="https://www.linkedin.com/in/chidinma-nwabekee-bb381b1b4/">
-            <i class="fab fa-linkedin fa-3x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
        </a>
         <a href="https://github.com/chibeke-dev">
-            <i class="fab fa-github fa-3x"></i>
+            <i class="fab fa-github fa-2x"></i>
         </a>
         <a href="https://twitter.com/iambekss">
-            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
         </a>
         <a href="https://www.facebook.com/chi.bekee.92">
-            <i class="fab fa-facebook fa-3x"></i>
+            <i class="fab fa-facebook fa-2x"></i>
         </a>
         </div>
-        <footer id="main-footer">
-            <form action="POST" data-netlify="true">
-                <div class="subscribe-form">
-                    <h3>Subscribe to Newsletter</h3>
-                    <input type="email" name="email" id="email" placeholder="Email"  required>
-                    <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
-                </div>
-            </form>
-                Chibekee &copy; 2020, All right reserved
-      </footer>
-      <script src="./js/index.js"></script>
-    </body>
-    </html>
-
+    <footer id="main-footer">
+      <form action="POST" data-netlify="true">
+        <div class="subscribe-form">
+          <h3>Subscribe to Newsletter</h3>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+        </div>
+      </form>
+      Chibekee &copy; 2020, All right reserved
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html> 

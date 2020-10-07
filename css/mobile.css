@@ -1,71 +1,88 @@
 .navbar button {
-    display: inline-block;
+  display: inline-block;
 }
 .nav-align {
-    align-items: baseline;
+  align-items: baseline;
 }
 .nav-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .navbar-collapse {
-    height: 0px;
-    overflow: hidden;
-    transition: height ease-in 300ms;
+  height: 0px;
+  overflow: hidden;
+  transition: height ease-in 300ms;
 }
 .navbar ul {
-    display: block;
+  display: block;
 }
 .navbar-collapse.show {
-    max-height: 350px;
-    transition: max-height ease-out 500ms;
+  max-height: 350px;
+  transition: max-height ease-out 500ms;
 }
 .navbar .nav-link {
-    font-size: 20px;
+  font-size: 20px;
 }
 .container {
-    max-width: 740px;
+  max-width: 740px;
 }
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 #showcase {
-    height: 100%;
-    color: rgb(42, 42, 141)
+  height: 100%;
+  color: rgb(42, 42, 141);
 }
-#what .items {
-    display: block;
-    padding: 1rem;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 1rem;
 }
-#what .items .item {
-    display: flex;
-    text-align: left;
-}
-#what .items .item i {
-    margin-right: 1.3rem;
-    align-self: center;
-    margin-bottom: 0;
+#what .box {
+  width: 80%;
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
 }
 #about-info .info-right,
 #about-info .info-left {
-    float: none;
-    width: 100%;
+  float: none;
+  width: 100%;
 }
 #about-info .info-right {
-    margin-top: 30px;
+  margin-top: 30px;
+}
+/* My skills section */
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+}
+#project-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: left;
+}
+.project,
+img {
+  background: #ffffff;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 }
 .social-list,
 .social-list a {
-    float: none;
+  float: none;
 }
-.containers{
-   grid-gap: 5px;
-   min-height: auto; 
+.containers {
+  grid-gap: 5px;
+  min-height: auto;
 }
 #main-footer {
-    height: 100%;
+  height: 100%;
 }
