@@ -74,10 +74,7 @@
       <div class="container">
            <section class="contact-info">
         <h1 class="contact-me">Contact Me</h1>
-        <p class="my-contact">Have a project? And would want me on your team..</p>
-        <p class="my-contact">Send an email to chibekee17@gmail.com OR Call on 09080930068</p>
-        <p class="my-contact">
-          Thanks for your interest in contacting me. Please fill the form below.
+          <p>Thanks for your interest in contacting me. Please fill the form below.
         </p>
         </section>
         <form action="POST" data-netlify="true">
@@ -86,6 +83,7 @@
             <input
               type="text"
               class="name"
+              name=name
               id="name"
               placeholder="Name"
               required
@@ -103,11 +101,13 @@
           </div>
           <div class="form-group">
             <label for="subject">Subject</label>
-            <input type="text" id="subject" placeholder="Subject" required />
+            <input type="text" id="subject" class="subject"  name="subject" placeholder="Subject" required />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
             <textarea
+              name="message"
+              class="message"
               name="message"
               id="message"
               cols="30"

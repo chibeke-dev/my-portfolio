@@ -216,8 +216,8 @@ p {
   outline: none;
 }
 .btn:hover {
-  color: #333;
-  background: #fff;
+  color: #fff;
+  background: black;
 }
 /* Home section */
 #showcase {
@@ -410,8 +410,8 @@ h3.testimonial-text {
 #main-footer {
   height: 100%;
   text-align: center;
-  background: #fff;
-  color: black;
+  background: #333;
+  color: white;
   padding: 20px;
 }
 .news-letter {
@@ -419,6 +419,10 @@ h3.testimonial-text {
   margin-bottom: 2px;
 }
 /* About section */
+a.cv {
+  color: #f3c745;
+  font-size: 1.2rem;
+}
 #about-info {
   background: #fff;
 }
@@ -518,6 +522,7 @@ div.subscribe-form input {
 ul li {
   list-style: none;
 }
+
 /* Project section */
 div#project p {
   font-size: 1.5rem;
