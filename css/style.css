@@ -366,7 +366,7 @@ h3.testimonial-text {
   }
 }
 .picture-1 {
-  background: url("/img/picture0.jpg");
+  background: url("/img/WK.jpg");
   background-position: center;
   background-size: cover;
   grid-area: one;
@@ -384,13 +384,13 @@ h3.testimonial-text {
   grid-area: three;
 }
 .picture-4 {
-  background: url("/img/picture3.jpg");
+  background: url("/img/WQ.jpg");
   background-position: center;
   background-size: cover;
   grid-area: four;
 }
 .picture-5 {
-  background: url("/img/picture4.jpg");
+  background: url("/img/WA.jpg");
   background-position: center;
   background-size: cover;
   grid-area: five;
@@ -438,7 +438,7 @@ a.cv {
 #about-info .info-right img {
   display: block;
   margin: auto;
-  width: 70%;
+  width: 90%;
   border-radius: 50%;
 }
 #about-info .info-left {
